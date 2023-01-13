@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Patrick+Hand&family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Francois+One&family=Patrick+Hand&family=Play:wght@700&display=swap');
+
+body {
+    background: url(https://cdn.wallpapersafari.com/56/43/WdLcKi.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.Main-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.box {
+    margin: 10px;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    border-radius: 5%;
+}
+
+.box2 {
+    margin: 10px;
+    width: 450px;
+    height: fit-content;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    border-radius: 5%;
+}
+
+.box-profile {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+
+    background-image: linear-gradient(220deg, #405DE6 5%, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80),
+        linear-gradient(#405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80 10%);
+    background-origin: border-box;
+    box-shadow: 0 20px 35px rgb(0, 0, 0, 0.3);
+
+}
+
+.box h1 {
+    font-size: 34px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.box h5 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    text-transform: uppercase;
+}
+
+.box h6 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 5%;
+    font-family: 'Play', sans-serif;
+}
+
+.box p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 0%;
+}
+
+.info h3{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    border-bottom: 1px solid #e0e0e0;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+}
+.info_data{
+    display: flex;
+    justify-content: space-between;
+}
+.info_data .data {
+    width: 67%;
+}
+.info_data .data h4{
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.info_data .data p{
+    font-size: 16px;
+    margin-bottom: 7px;
+    color: #e0e0e0;
+    margin-top: 0px;
+}

@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+
+* {
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: Arial;
+    overflow: auto;
+    background: url(https://cdn.wallpapersafari.com/22/83/gUuPz9.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.Main {
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border-radius: 10%;
+    left: 5%;
+    overflow-x: hidden;
+    padding-top: 30px;
+    position: absolute;
+    top: 16.9%;
+    width: 270px;
+    height: 300px;
+    box-shadow: 0px 0px 5px 1px grey;
+}
+
+.profile {
+    margin-bottom: 20px;
+    margin-top: -12px;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 1px grey;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.Subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: rgb(233, 80, 101);
+}
+
+.Secondary {
+    margin-top: 2%;
+    margin-left: 29%;
+    font-size: 28px;
+    padding: 0 10px;
+    width: 58%;
+}
+
+.Secondary h1 {
+    color: rgb(82, 210, 115);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+
+.Secondary h2 {
+    color: rgb(70, 189, 223);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tdColor {
+    color: rgb(179, 184, 188);
+    font-size: 12px;
+}
+
+.pFormat {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Secondary .box {
+    background-color: rgb(39, 39, 39);
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+
+}
+
+.Secondary .box table {
+    border: none;
+    font-size: 16px;
+    height: 200px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.Secondary .box2 {
+    background-color: rgb(39, 39, 39);
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+    width: 70%;
+
+}
+
+.Secondary .box2 table {
+    border: none;
+    font-size: 16px;
+    height: 10px;
+    width: 400px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 28%;
+
+
+}
+
+.container {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16%;
+    border-radius: 10px;
+}
+
+.center {
+    width: 100px;
+    height: 35px;
+    position: absolute;
+}
+
+.btn {
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgb(82, 210, 115);
+    border-radius: 10px;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: rgb(233, 80, 101);
+    stroke-width: 3px;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: rgb(82, 210, 115);
+    border: 0px;
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
