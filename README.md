@@ -7,7 +7,7 @@
 
 # Version 2
 <p align="center">
-<img width="45%" src="https://github.com/Unknownplanet40/Profile-Page/blob/8aa7d3ec43256034e99a657cafac5c3fae25bb0b/Output%201.png"/><img width="45%" src="https://github.com/Unknownplanet40/Profile-Page/blob/8aa7d3ec43256034e99a657cafac5c3fae25bb0b/Output%202.png"/>
+<img width="45%" src="https://github.com/Unknownplanet40/Profile-Page/blob/8aa7d3ec43256034e99a657cafac5c3fae25bb0b/Output%201.png"/><img width="52%" src="https://github.com/Unknownplanet40/Profile-Page/blob/8aa7d3ec43256034e99a657cafac5c3fae25bb0b/Output%202.png"/>
 </p>
 
 # Version 2
