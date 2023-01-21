@@ -251,8 +251,7 @@ if (mysqli_num_rows($result) > 0) {
     <!-- footer -->
     <div class="copyright">
         <h2>RJ45</h2>
-        <p>Create By <a href="https://github.com/Unknownplanet40" target="_blank">Unknownplanet40</a> | All Right
-            Reserved.</p>
+        <p>Create By <a href="https://github.com/Unknownplanet40" target="_blank">Unknownplanet40</a> | All Right Reserved.</p>
     </div>
 </body>
 
