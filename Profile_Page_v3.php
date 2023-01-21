@@ -24,7 +24,7 @@ if (mysqli_num_rows($result) > 0) {
     $branch = "No Branch";
     $cAs = "No Course";
     $syear = "No School Year";
-    $flink = "No Facebook Link";
+    $flink = "facebook.com/???";
 }
 
 ?>
